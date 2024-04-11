@@ -1,11 +1,11 @@
 {
   "liblabVersion": "2.1.0",
-  "date": "2024-04-10T20:43:20.001Z",
+  "date": "2024-04-11T11:04:23.727Z",
   "config": {
     "language": "go",
     "apiId": 695,
     "sdkName": "milan-petstore-sdk",
-    "sdkVersion": "3.5.2",
+    "sdkVersion": "4.0.0",
     "liblabVersion": "1",
     "deliveryMethods": ["zip"],
     "languages": ["go"],
@@ -18,14 +18,14 @@
         "goModuleName": "github.com/mlanlazc/go-petstore-milan",
         "githubRepoName": "go-petstore-milan",
         "ignoreFiles": [],
-        "sdkVersion": "3.5.2"
+        "sdkVersion": "4.0.0"
       }
     },
     "publishing": {
       "githubOrg": "mlanlazc"
     },
     "multiTenant": true,
-    "specUrl": "https://prod-liblab-api-stack-specs.s3.us-east-1.amazonaws.com/695/open-api-spec.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIA5P3QKKDKGVNIJ2H7%2F20240410%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240410T204315Z&X-Amz-Expires=43200&X-Amz-Signature=8cff78396e5e65f6dab71b6c3744098832caae085647adc15821b004378f1f15&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "specUrl": "https://prod-liblab-api-stack-specs.s3.us-east-1.amazonaws.com/695/open-api-spec.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIA5P3QKKDKGVNIJ2H7%2F20240411%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240411T110419Z&X-Amz-Expires=43200&X-Amz-Signature=ca57c5ad0e25995280684bf58a8b6cd2a4e1813cb38b4fc16ef76d20db5619ce&X-Amz-SignedHeaders=host&x-id=GetObject",
     "includeWatermark": false,
     "goModuleName": "github.com/mlanlazc/go-petstore-milan",
     "githubRepoName": "go-petstore-milan",

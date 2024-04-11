@@ -1,9 +1,9 @@
-# MilanPetstoreSdk Go SDK 3.5.2
+# MilanPetstoreSdk Go SDK 4.0.0
 
 A Go SDK for MilanPetstoreSdk.
 
 - API version: 1.0.0
-- SDK version: 3.5.2
+- SDK version: 4.0.0
 
 ## Table of Contents
 
