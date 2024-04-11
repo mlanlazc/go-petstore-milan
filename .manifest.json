@@ -1,6 +1,6 @@
 {
-  "liblabVersion": "2.1.0",
-  "date": "2024-04-11T17:26:02.023Z",
+  "liblabVersion": "2.1.2",
+  "date": "2024-04-11T18:07:00.892Z",
   "config": {
     "language": "go",
     "apiId": 695,
@@ -25,8 +25,19 @@
     "publishing": {
       "githubOrg": "mlanlazc"
     },
+    "devContainer": false,
+    "generateEnv": true,
+    "includeOptionalSnippetParameters": true,
+    "inferServiceNames": false,
+    "license": {
+      "type": "MIT",
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT",
+      "path": "MIT.ejs"
+    },
+    "responseHeaders": false,
     "multiTenant": true,
-    "specUrl": "https://prod-liblab-api-stack-specs.s3.us-east-1.amazonaws.com/695/open-api-spec.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIA5P3QKKDKGVNIJ2H7%2F20240411%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240411T172557Z&X-Amz-Expires=43200&X-Amz-Signature=c16aae8edb2f493d8247d33e9cc1418d5a45b9301a4e992b12b3ae610a608275&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "specUrl": "https://prod-liblab-api-stack-specs.s3.us-east-1.amazonaws.com/695/open-api-spec.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIA5P3QKKDKGVNIJ2H7%2F20240411%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240411T180700Z&X-Amz-Expires=43200&X-Amz-Signature=d1f763da3d5a89aaddfe32efa5b472e606f678f2e4dabd447a61d495f194d412&X-Amz-SignedHeaders=host&x-id=GetObject",
     "includeWatermark": false,
     "goModuleName": "github.com/mlanlazc/go-petstore-milan",
     "githubRepoName": "go-petstore-milan",
@@ -40,7 +51,6 @@
     "authentication": {},
     "environmentVariables": [],
     "fileOutput": "/tmp",
-    "inferServiceNames": false,
     "httpLibrary": {
       "name": "axios",
       "packages": {
@@ -63,9 +73,7 @@
       "paths": [],
       "rawQueries": [],
       "queriesData": []
-    },
-    "generateEnv": true,
-    "devContainer": false
+    }
   },
   "files": [
     "internal/validation/validate_array_length.go",
@@ -106,6 +114,7 @@
     "pkg/shared/milan_petstore_sdk_response.go",
     "pkg/shared/milan_petstore_sdk_error.go",
     "pkg/milanpetstoresdkconfig/environments.go",
+    "./LICENSE",
     ".env.example",
     "pkg/pets/pets_service.go",
     "pkg/pets/pet.go",
