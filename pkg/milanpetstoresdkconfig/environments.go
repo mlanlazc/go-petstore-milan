@@ -1,5 +1,5 @@
 package milanpetstoresdkconfig
 
 const (
-	DEFAULT_ENVIRONMENT = "http://petstore.swagger.io/v1"
+	DEFAULT_ENVIRONMENT = "https://eox352uelardliu.m.pipedream.net"
 )
